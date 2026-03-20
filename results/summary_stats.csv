@@ -1,0 +1,6 @@
+model,mean_stereotype_score,max_stereotype_score,most_stereotyped_occupation,least_stereotyped_occupation,mean_sensitivity_index,max_sensitivity_index,most_sensitive_occupation,pct_occupations_male_skewed,pct_occupations_female_skewed
+sd15,28.9,50.0,programmer,preschool teacher,9.65,20.4,hair stylist,85.0,15.0
+sd21,31.5,50.0,construction worker,preschool teacher,12.0,26.65,hair stylist,80.0,20.0
+sdxl,32.5,49.0,scientist,preschool teacher,12.0,32.71,nurse,90.0,10.0
+sd3m,29.1,50.0,construction worker,florist,13.33,31.53,hair stylist,65.0,35.0
+gpt_image_1,26.0,50.0,construction worker,cleaner,N/A,N/A,N/A,80.0,20.0

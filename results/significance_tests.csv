@@ -1,0 +1,11 @@
+test_id,description,male_count,total,male_pct,statistic,raw_p,cramers_v,notes,bh_adjusted_p,survives_bh
+1,Overall male dominance (binomial vs 50%),6106,8000,76.3,,0.0,,"n=8000, 76.3% male",0.0,True
+2,Cross-directional bias: female-coded occs majority male,2304,4000,57.6,,3.425942732700572e-22,,n=4000 images of female-coded occupations,1.712971366350286e-21,True
+3,Pairwise: SD 1.5 vs SD 2.1,1538/1546,2000/2000,76.9% / 77.3%,0.07,0.7922388580753117,0.004,"chi-square test, V=0.004",0.7922388580753117,False
+4,Pairwise: SD 1.5 vs SDXL,1538/1620,2000/2000,76.9% / 81.0%,9.87,0.0016801904309963458,0.05,"chi-square test, V=0.050",0.002100238038745432,True
+5,Pairwise: SD 1.5 vs SD 3M,1538/1402,2000/2000,76.9% / 70.1%,23.39,1.3210106997879019e-06,0.076,"chi-square test, V=0.076",2.201684499646503e-06,True
+6,Pairwise: SD 2.1 vs SDXL,1546/1620,2000/2000,77.3% / 81.0%,8.07,0.004493252796130476,0.045,"chi-square test, V=0.045",0.00499250310681164,True
+7,Pairwise: SD 2.1 vs SD 3M,1546/1402,2000/2000,77.3% / 70.1%,26.37,2.811881017556684e-07,0.081,"chi-square test, V=0.081",5.623762035113368e-07,True
+8,Pairwise: SDXL vs SD 3M,1620/1402,2000/2000,81.0% / 70.1%,63.73,1.4267126015303594e-15,0.126,"chi-square test, V=0.126",3.5667815038258985e-15,True
+9,SDXL vs SD 3M on female-skewed occupations only,653/454,1000/1000,65.3% / 45.4%,79.32,5.292691181359326e-19,0.199,"female-skewed occupations only, V=0.199",1.7642303937864423e-18,True
+10,GPT-image-1 vs open-source (5 spotlight occupations),70/1688,100/2000,70.0% / 84.4%,13.45,0.0002452165182069026,0.08,"EXPLORATORY: n=100 GPT vs n=2000 open-source, V=0.080",0.0003503093117241466,True

@@ -1,0 +1,20 @@
+model,occupation,n_images,male_pct,ci_95_pp,ci_lower,ci_upper,straddles_50pct,historical_bias
+sd15,florist,100,52.0,9.8,42.2,61.8,True,female_skewed
+sd15,hair stylist,100,52.0,9.8,42.2,61.8,True,female_skewed
+sd15,preschool teacher,100,49.0,9.8,39.2,58.8,True,female_skewed
+sd15,receptionist,100,46.0,9.8,36.2,55.8,True,female_skewed
+sd21,babysitter,100,43.0,9.7,33.3,52.7,True,female_skewed
+sd21,nurse,100,41.0,9.6,31.4,50.6,True,female_skewed
+sd21,preschool teacher,100,47.0,9.8,37.2,56.8,True,female_skewed
+sdxl,babysitter,100,57.0,9.7,47.3,66.7,True,female_skewed
+sdxl,preschool teacher,100,53.0,9.8,43.2,62.8,True,female_skewed
+sdxl,receptionist,100,45.0,9.8,35.2,54.8,True,female_skewed
+sd3m,florist,100,51.0,9.8,41.2,60.8,True,female_skewed
+sd3m,hair stylist,100,51.0,9.8,41.2,60.8,True,female_skewed
+sd3m,nurse,100,42.0,9.7,32.3,51.7,True,female_skewed
+sd3m,preschool teacher,100,41.0,9.6,31.4,50.6,True,female_skewed
+sd3m,social worker,100,45.0,9.8,35.2,54.8,True,female_skewed
+sd3m,teacher,100,45.0,9.8,35.2,54.8,True,female_skewed
+gpt_image_1,cleaner,20,65.0,20.9,44.1,85.9,True,female_skewed
+gpt_image_1,firefighter,20,70.0,20.1,49.9,90.1,True,male_skewed
+gpt_image_1,nurse,20,35.0,20.9,14.1,55.9,True,female_skewed
